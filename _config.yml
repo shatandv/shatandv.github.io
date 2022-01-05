@@ -3,17 +3,27 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+
+# General
 title: Andrey's Blog
-email: shatandv@gmail.com
 description: >- # this means to ignore newlines until "domain:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
+# title_separator: "|"
+# subtitle: ""
+
+# Domain and URL info
 domain: shatandv.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
 url: https://shatandv.github.io  # the base hostname and protocol for your site, e.g. http://example.com
 baseurl: ""                      # place folder name if the site is served in a subfolder
+
+# Social
+email: shatandv@gmail.com
 twitter_username: shatandv
 github_username: shatandv
+
+# Basic MM theme settings
 minimal_mistakes_skin: dark
 search: true
 
@@ -51,10 +61,11 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+# Site author info
 author:
-  name   : "First Lastname"
+  name   : "Andrey Shataev"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Write something later."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -69,6 +80,7 @@ author:
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/"
 
+# Footer info
 footer:
   links:
     - label: "Twitter"
@@ -81,6 +93,7 @@ footer:
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/"
 
+# Default site settings
 defaults:
   # _posts
   - scope:
